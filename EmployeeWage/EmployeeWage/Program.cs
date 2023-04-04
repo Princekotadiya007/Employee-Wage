@@ -12,6 +12,10 @@ namespace EmployeeWage
         {
             Attandance attandance = new Attandance();
             attandance.Attendance();
+            Console.WriteLine();
+
+            Calculate calculate  = new Calculate();
+            calculate.EmpCalculate();
         }
     }
 }

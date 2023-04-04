@@ -16,7 +16,7 @@ namespace EmployeeWage
             Console.WriteLine();
 
             Console.WriteLine("UC2");
-            Calculate calculate  = new Calculate();
+            Calculate calculate = new Calculate();
             calculate.EmpCalculate();
             Console.WriteLine();
 
@@ -33,6 +33,11 @@ namespace EmployeeWage
             Console.WriteLine("UC5");
             CalculateMonth calculateMonth = new CalculateMonth();
             calculateMonth.CalculateWage();
+            Console.WriteLine();
+
+            Console.WriteLine("UC6");
+            CalculateTotalHrs calculateTotalHrs = new CalculateTotalHrs();
+            calculateTotalHrs.CalculateMonthHrs();
             Console.WriteLine();
         }
     }

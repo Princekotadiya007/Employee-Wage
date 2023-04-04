@@ -16,6 +16,11 @@ namespace EmployeeWage
 
             Calculate calculate  = new Calculate();
             calculate.EmpCalculate();
+            Console.WriteLine();
+
+            PartTime part = new PartTime();
+            part.EmpPartTime();
+            Console.WriteLine();
         }
     }
 }

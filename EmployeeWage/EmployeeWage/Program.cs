@@ -21,6 +21,10 @@ namespace EmployeeWage
             PartTime part = new PartTime();
             part.EmpPartTime();
             Console.WriteLine();
+
+            SwitchCase switchs = new SwitchCase();
+            switchs.EmpSwitchCase();
+            Console.WriteLine();
         }
     }
 }
